@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   } else if (request.todo === "checkImages") {
     console.log("Check request recieved", request.images);
     const images = request.images;
-    fetch("http://localhost:4000/detect", {
+    fetch("https://cloakbackend.herokuapp.com/detect", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
