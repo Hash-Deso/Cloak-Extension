@@ -8,8 +8,6 @@
     "128": "./Cloak-PNG-Image.png",
     "48": "./Cloak-PNG-Image.png",
     "16": "./Cloak-PNG-Image.png"
-   
-
   },
 
   "page_action": {
@@ -31,10 +29,5 @@
     }
   ],
 
-  "permissions": [
-    "tabs",
-    "https://bitclout.com/*",
-    "https://google.com/*",
-    "storage"
-  ]
+  "permissions": ["https://bitclout.com/*", "https://google.com/*", "storage"]
 }
