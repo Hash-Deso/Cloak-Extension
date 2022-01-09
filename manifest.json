@@ -23,11 +23,11 @@
 
   "content_scripts": [
     {
-      "matches": ["https://bitclout.com/*", "https://google.com/*"],
+      "matches": ["https://bitclout.com/*"],
       "js": ["content.js"],
       "css": ["content.css"]
     }
   ],
 
-  "permissions": ["https://bitclout.com/*", "https://google.com/*", "storage"]
+  "permissions": ["https://bitclout.com/*", "storage"]
 }
